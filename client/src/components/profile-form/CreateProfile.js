@@ -86,7 +86,8 @@ const CreateProfile = ({ createProfile, history }) => {
             onChange={(e) => onChange(e)}
           />
           <small className='form-text'>
-            Could be your own or a company website
+            Could be your own or a company website.{' '}
+            <i>( Format: https://www.YourCompany.com )</i>
           </small>
         </div>
         <div className='form-group'>
@@ -142,7 +143,8 @@ const CreateProfile = ({ createProfile, history }) => {
             type='button'
             className='btn btn-light'
           >
-            Add Social Network Links
+            Add Social Network Links.{' '}
+            <i>( Format: https://www.YourSocialAccount.com )</i>
           </button>
           <span>Optional</span>
         </div>
